@@ -13,9 +13,10 @@ public class TestController {
     @RequestMapping("/test")
     @ResponseBody
     public String test() {
-
-        System.out.println("succ");
-
+        System.out.println("开始");
+       Thread thread = new Thread(new T());
+        thread.start();
+        System.out.println("结束");
     return  "succ";
     }
 }
