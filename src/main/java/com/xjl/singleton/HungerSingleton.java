@@ -8,6 +8,9 @@ public class HungerSingleton {
    static  HungerSingleton hungerSingleton = new HungerSingleton();
 
     private HungerSingleton() {
+        if(hungerSingleton != null){
+            new RuntimeException("not new refalse");
+        }
     }
 
     public HungerSingleton  getInstance( ) {
