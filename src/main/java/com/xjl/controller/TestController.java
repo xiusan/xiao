@@ -74,4 +74,8 @@ public class TestController {
             System.out.println("线程数量："+noThreads+" 线程id：" + thread.getId() + " 线程名称：" + thread.getName() + " 线程状态：" + thread.getState());
         }
     }
+
+    @RequestMapping("/test5")
+    public  void findAllThread5(){
+    }
 }
