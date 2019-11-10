@@ -3,7 +3,7 @@ package com.xjl;
 import java.io.*;
 import java.util.*;
 
-public class show {
+public class companyFenxi {
     public static void main(String[] args) {
         Map<String, String> mapTree = new TreeMap<String, String>(
                 new Comparator<String>() {

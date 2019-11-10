@@ -1,6 +1,6 @@
 package com.xjl;
 
-public class YieldTest  {
+public class daikuanTest {
     public static void main(String[] args) {
       /*  YieldTask yieldTask = new YieldTask();
         Thread threadA =new Thread(yieldTask,"A");
