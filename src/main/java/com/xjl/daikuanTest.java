@@ -1,5 +1,9 @@
 package com.xjl;
 
+/**
+ * 贷款分析
+ *
+ */
 public class daikuanTest {
     public static void main(String[] args) {
       /*  YieldTask yieldTask = new YieldTask();
