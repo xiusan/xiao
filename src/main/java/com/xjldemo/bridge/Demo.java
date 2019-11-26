@@ -1,7 +1,10 @@
-package com.xjldemo;
+package com.xjldemo.bridge;
 
 /**
- * Created by Administrator on 2019/11/16.
+ * Decorator  装饰者
+ *
+ * 装饰器模式（Decorator Pattern）允许向一个现有的对象添加新的功能，
+ * 同时又不改变其结构。这种类型的设计模式属于结构型模式，它是作为现有的类的一个包装
  */
 public class Demo {
     public static void main(String[] args) {
