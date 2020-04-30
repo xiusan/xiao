@@ -1,4 +1,4 @@
-package com.xjl.threaddemo;
+package com.xjl.threaddemo.syncOne;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

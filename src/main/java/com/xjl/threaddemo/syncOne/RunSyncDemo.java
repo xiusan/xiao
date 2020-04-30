@@ -1,4 +1,4 @@
-package com.xjl.threaddemo;
+package com.xjl.threaddemo.syncOne;
 
 /**
  * Created by Administrator on 2019/11/16.
