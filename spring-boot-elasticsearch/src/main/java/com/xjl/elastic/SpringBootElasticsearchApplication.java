@@ -1,4 +1,4 @@
-package com.atguigu.elastic;
+package com.xjl.elastic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

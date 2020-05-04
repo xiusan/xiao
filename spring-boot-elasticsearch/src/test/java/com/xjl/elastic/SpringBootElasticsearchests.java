@@ -1,6 +1,6 @@
-package com.atguigu.elastic;
+package com.xjl.elastic;
 
-import com.atguigu.elastic.bean.Article;
+import com.xjl.elastic.bean.Article;
 import io.searchbox.client.JestClient;
 import io.searchbox.core.Index;
 import io.searchbox.core.Search;
