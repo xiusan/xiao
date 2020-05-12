@@ -17,6 +17,10 @@
         <module>spring-boot-mongodb/spring-boot-mongodb</module>
         <module>spring-boot-mongodb/spring-boot-multi-mongodb</module>
     </modules>
+    <properties>
+        <docker.image.prefix>springio</docker.image.prefix>
+        <java.version>1.8</java.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -90,9 +94,7 @@
             <version>3.4</version>
         </dependency>
     </dependencies>
-    <properties>
-        <docker.image.prefix>springio</docker.image.prefix>
-    </properties>
+
     <build>
         <plugins>
             <plugin>
