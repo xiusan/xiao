@@ -16,6 +16,8 @@
         <module>spring-boot-elasticsearch</module>
         <module>spring-boot-mongodb/spring-boot-mongodb</module>
         <module>spring-boot-mongodb/spring-boot-multi-mongodb</module>
+        <module>spring-boot-mq/rabbitmq-api</module>
+        <module>spring-boot-mq/rabbitmq-spring</module>
     </modules>
     <properties>
         <docker.image.prefix>springio</docker.image.prefix>
