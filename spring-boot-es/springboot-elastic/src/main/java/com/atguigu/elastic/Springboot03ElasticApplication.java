@@ -1,4 +1,4 @@
-package com.xjl.elastic;
+package com.atguigu.elastic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,9 +20,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *	1）、编写一个 ElasticsearchRepository
  */
 @SpringBootApplication
-public class SpringBootElasticsearchApplication {
+public class Springboot03ElasticApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootElasticsearchApplication.class, args);
+		SpringApplication.run(Springboot03ElasticApplication.class, args);
 	}
 }

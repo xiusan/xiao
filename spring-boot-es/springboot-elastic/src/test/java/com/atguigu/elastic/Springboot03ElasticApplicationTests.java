@@ -1,6 +1,8 @@
-package com.xjl.elastic;
+package com.atguigu.elastic;
 
-import com.xjl.elastic.bean.Article;
+import com.atguigu.elastic.bean.Article;
+import com.atguigu.elastic.bean.Book;
+import com.atguigu.elastic.repository.BookRepository;
 import io.searchbox.client.JestClient;
 import io.searchbox.core.Index;
 import io.searchbox.core.Search;
@@ -12,16 +14,16 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.IOException;
+import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringBootElasticsearchests {
-
+public class Springboot03ElasticApplicationTests {
 
 	@Autowired
 	JestClient jestClient;
 
-/*	@Autowired
+	@Autowired
 	BookRepository bookRepository;
 
 	@Test
@@ -36,16 +38,13 @@ public class SpringBootElasticsearchests {
 		for (Book book : bookRepository.findByBookNameLike("游")) {
 			System.out.println(book);
 		}
+		;
 
 	}
 
 
 
 
-
-
-
-*/
 	@Test
 	public void contextLoads() {
 		//1、给Es中索引（保存）一个文档；
@@ -91,4 +90,5 @@ public class SpringBootElasticsearchests {
 			e.printStackTrace();
 		}
 	}
+
 }

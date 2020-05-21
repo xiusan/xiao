@@ -1,4 +1,4 @@
-package com.xjl.elastic.bean;
+package com.atguigu.elastic.bean;
 
 import io.searchbox.annotations.JestId;
 
