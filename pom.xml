@@ -13,7 +13,7 @@
         <version>2.2.6.RELEASE</version>
     </parent>
     <modules>
-        <module>spring-boot-elasticsearch</module>
+        <module>spring-boot-es/springboot-elastic</module>
         <module>spring-boot-mongodb/spring-boot-mongodb</module>
         <module>spring-boot-mongodb/spring-boot-multi-mongodb</module>
         <module>spring-boot-mq/rabbitmq-api</module>
@@ -29,7 +29,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.67</version>
+            <version>1.2.68</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
