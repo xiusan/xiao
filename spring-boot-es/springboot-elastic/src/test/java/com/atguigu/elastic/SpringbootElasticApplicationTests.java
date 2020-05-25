@@ -18,7 +18,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Springboot03ElasticApplicationTests {
+public class SpringbootElasticApplicationTests {
 
 	@Autowired
 	JestClient jestClient;
