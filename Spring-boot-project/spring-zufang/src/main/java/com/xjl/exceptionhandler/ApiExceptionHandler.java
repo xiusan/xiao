@@ -2,7 +2,6 @@ package com.xjl.exceptionhandler;
 
 
 import com.xjl.base.ApiResponse;
-import com.xjl.exception.XjlException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

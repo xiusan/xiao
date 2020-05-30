@@ -1,7 +1,7 @@
 package com.xjl.aop;
 
 import com.xjl.assertutil.AssertUtil;
-import com.xjl.exception.XjlException;
+import com.xjl.exceptionhandler.XjlException;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.core.annotation.Order;

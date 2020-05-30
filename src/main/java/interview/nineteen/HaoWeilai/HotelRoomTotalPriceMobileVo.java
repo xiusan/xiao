@@ -5,7 +5,7 @@ import java.util.List;
 
 /***
  * 房间总价格和明细 通用vo
- * @Author chenS
+ * @Author xjl
  * @Description
  * @Date 18:05 2019/11/25
  **/

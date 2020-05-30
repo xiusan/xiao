@@ -1,6 +1,6 @@
 package com.xjl.assertutil;
 
-import com.xjl.exception.XjlException;
+import com.xjl.exceptionhandler.XjlException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

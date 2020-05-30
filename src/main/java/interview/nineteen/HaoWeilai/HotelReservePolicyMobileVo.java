@@ -6,7 +6,7 @@ import java.util.List;
 /***
  *
  * 预定专享，服务政策通用集合
- * @Author chenS
+ * @Author xjl
  * @Description
  * @Date 16:02 2019/11/11
  **/
