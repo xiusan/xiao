@@ -10,8 +10,8 @@ import java.util.Objects;
 /**
  * 断言工具类
  *
- * @author lvyimeng
- * @date 2019/3/5 19:02
+ * @author xjl
+ * @date
  */
 public class AssertUtil {
 

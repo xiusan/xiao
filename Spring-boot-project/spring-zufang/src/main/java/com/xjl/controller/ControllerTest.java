@@ -1,7 +1,5 @@
 package com.xjl.controller;
 
-import com.alibaba.fastjson.JSONObject;
-import com.xjl.assertutil.AssertUtil;
 import com.xjl.base.ApiResponse;
 import com.xjl.base.BaseController;
 import com.xjl.base.SysConfigMsg;
@@ -9,6 +7,9 @@ import com.xjl.entity.House;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @Auther: xiaojinlu1990@163.com
@@ -27,6 +28,18 @@ public class ControllerTest extends BaseController {
         House house = House.builder().area(2).cityEnName("ddd").build();
         String houses =super.toJsonString(house);
         //JSONObject.toJSON(house);测试两者转换一样
+        return  ApiResponse.ofSuccessSon("ok");
+    }
+    /**
+     * 统一格式处理
+     * @return
+     */
+    @RequestMapping("get1")
+    @ResponseBody
+    public ApiResponse get1(){
+        House house = House.builder().area(2).cityEnName("ddd").build();
+        String houses =super.toJsonString(house);
+        //JSONObject.toJSON(house);测试两者转换一样
         return ApiResponse.ofSuccess(houses);
     }
  /**
@@ -40,9 +53,12 @@ public class ControllerTest extends BaseController {
     @RequestMapping("exceptionTest")
     @ResponseBody
     public ApiResponse exceptionTest(){
-        new Exception("我是不可知");
-        //JSONObject.toJSON(house);测试两者转换一样
-        AssertUtil.assertNotIsEmpty(null,"我是不可知");
+        List<Object> objects = Arrays.asList("sss","sss");
+        ClassCastException exception = new ClassCastException();
+        exception.printStackTrace();
+        objects.get(30);
+
+        //AssertUtil.assertNotIsEmpty(null,"我是不可知");
         return ApiResponse.ofSuccess("");
     }
 

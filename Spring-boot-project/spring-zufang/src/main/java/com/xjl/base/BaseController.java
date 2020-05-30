@@ -31,7 +31,7 @@ public class BaseController {
 
 	protected String getRemoteIp() {
 		HttpServletRequest request = getRequest();
-		// 主站 和 移动端，请求时，附带IP, 其他各端，则从nginx请求IP
+		// 主站 ，请求时，附带IP, 其他各端，则从nginx请求IP
 		if (!StringUtils.isEmpty(request.getParameter("clientIP"))) {
 			return request.getParameter("clientIP");
 		}
@@ -68,7 +68,7 @@ public class BaseController {
 	}
 */
 	/** *
-	 * 移动端返回值字段为null做转换工具
+	 * 返回值字段为null做转换工具
 	 * @author 
 	 * @param obj
 	 * @date

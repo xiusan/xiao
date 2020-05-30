@@ -2,7 +2,7 @@ package com.xjl.base;
 
 /**
  * API格式封装
- * Created by 瓦力.
+ * Created by xjl
  */
 public class ApiResponse {
     private int code;
@@ -14,6 +14,9 @@ public class ApiResponse {
         this.code = code;
         this.message = message;
         this.data = data;
+    }    public ApiResponse(int code, String message) {
+        this.code = code;
+        this.message = message;
     }
 
     public ApiResponse() {
@@ -97,5 +100,10 @@ public class ApiResponse {
         public void setStandardMessage(String standardMessage) {
             this.standardMessage = standardMessage;
         }
+}//        针对成功错我处理错误进行处理
+
+    public static ApiResponse ofSuccessSon(String message) {
+        return new ApiResponse(Status.SUCCESS.getCode(), Status.SUCCESS.getStandardMessage(), ApiResponseSon.ofStatus(message));
     }
 }
+

@@ -8,8 +8,8 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 /**
- * 顶层拦截(在SpringAOP事物之前),拦截所有异常,捕获TMC产品端异常,返回到商旅WEB
- * @author ChenS
+ * 顶层拦截(在SpringAOP事物之前),拦截所有异常,捕获,返回到WEB
+ * @author xjl
  */
 @Aspect
 @Order(1)
@@ -19,8 +19,8 @@ public class MessageHandlerAspect {
 
     /** *
      * 拦截所有TMC方法,捕获指定异常
-     * @author ChenS
-     * @param e tmc产品端异常
+     * @author xjl
+     * @param e
      * @date  2019/5/16 17:55
      * @return  void
      */
