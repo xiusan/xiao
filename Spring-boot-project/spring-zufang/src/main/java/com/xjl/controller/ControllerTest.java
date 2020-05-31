@@ -4,6 +4,10 @@ import com.xjl.base.ApiResponse;
 import com.xjl.base.BaseController;
 import com.xjl.base.SysConfigMsg;
 import com.xjl.entity.House;
+import com.xjl.service.HouseServiceImpl;
+import com.xjl.service.IHouseService;
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -18,6 +22,8 @@ import java.util.List;
  */
 @Controller
 public class ControllerTest extends BaseController {
+    @Autowired
+    private IHouseService iHouseService;
     /**
      * 统一格式处理
      * @return
@@ -28,6 +34,17 @@ public class ControllerTest extends BaseController {
         House house = House.builder().area(2).cityEnName("ddd").build();
         String houses =super.toJsonString(house);
         //JSONObject.toJSON(house);测试两者转换一样
+        return  ApiResponse.ofSuccessSon("ok");
+    }
+
+    /**
+     * 测试实体转换
+     * @return
+     */
+    @RequestMapping("change")
+    @ResponseBody
+    public ApiResponse change(){
+         iHouseService.getTest();
         return  ApiResponse.ofSuccessSon("ok");
     }
     /**
