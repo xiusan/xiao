@@ -3,17 +3,20 @@ package com.xjl.controller;
 import com.xjl.base.ApiResponse;
 import com.xjl.base.BaseController;
 import com.xjl.base.SysConfigMsg;
+import com.xjl.entity.Author;
+import com.xjl.entity.Book;
 import com.xjl.entity.House;
 import com.xjl.service.HouseServiceImpl;
 import com.xjl.service.IHouseService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Auther: xiaojinlu1990@163.com
@@ -91,5 +94,36 @@ public class ControllerTest extends BaseController {
     @ResponseBody
     public ApiResponse proJump(){
         return ApiResponse.ofSuccess( SysConfigMsg.sysConfig.getProperty("test"));
+    }
+
+
+    /**
+     * 全局数据绑定
+     * @Author xiaojinlu
+     * @Description
+     * @Date 2020/5/24 21:35
+     * @Param
+     * @return
+     **/
+    @GetMapping("/hello")
+    public String hello(Model model) {
+        Map<String, Object> map = model.asMap();
+        System.out.println(map);
+        int i = 1 / 0;
+        return "hello controller advice";
+    }
+    /**
+     * 全局数据预处理
+     * @Author xiaojinlu
+     * @Description
+     * @Date 2020/5/24 21:35
+     * @Param
+     * @return
+     **/
+
+    @PostMapping("/book")
+    public void addBook(@ModelAttribute("b") Book book, @ModelAttribute("a") Author author) {
+        System.out.println(book);
+        System.out.println(author);
     }
 }

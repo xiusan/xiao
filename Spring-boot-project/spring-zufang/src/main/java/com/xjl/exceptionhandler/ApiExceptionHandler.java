@@ -1,20 +1,26 @@
 package com.xjl.exceptionhandler;
 
 
+import com.google.common.collect.Maps;
 import com.xjl.base.ApiResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 
 /**
+ @ControllerAdvice  全局异常处理
+             全局数据绑定 
+             全局数据预处理
+ * 
  * 异常捕捉
  */
 @ControllerAdvice
@@ -93,5 +99,37 @@ public class ApiExceptionHandler {
                 .getMessage(String.format(ApiResultCode.RESP_CODE_KEY, ApiResultCode.SYSTEM_ERROR), null, null);
         return new ApiResponse(ApiResultCode.SYSTEM_ERROR, message);
     }
+    
+     /**
+      * 全局数据绑定
+      * @Author xiaojinlu
+      * @Description 
+      * @Date 2020/5/31 22:44
+      * @Param 
+      * @return 
+      **/
+     @ModelAttribute(name = "md")
+     public Map<String,Object> mydata() {
+         HashMap<String, Object> map = Maps.newHashMap();
+         map.put("age", 99);
+         map.put("gender", "男");
+         return map;
+     }
 
+      /**
+       *
+       * @Author xiaojinlu
+       * @Description
+       * @Date 2020/5/31 22:45
+       * @Param
+       * @return
+       **/
+      @InitBinder("b")
+      public void b(WebDataBinder binder) {
+          binder.setFieldDefaultPrefix("b.");
+      }
+    @InitBinder("a")
+    public void a(WebDataBinder binder) {
+        binder.setFieldDefaultPrefix("a.");
+    }
 }
