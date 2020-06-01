@@ -22,7 +22,7 @@ public class BaseController {
 
 	protected SessionUser getSessionUser() {
 		HttpServletRequest httpRequest = getRequest();
-		return (SessionUser) httpRequest.getSession().getAttribute(ApiConstants.SESSION_USER_KEY);
+		return (SessionUser) 对httpRequest.getSession().getAttribute(ApiConstants.SESSION_USER_KEY);
 	}
 
 	protected HttpServletRequest getRequest() {
