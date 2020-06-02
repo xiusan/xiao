@@ -23,6 +23,7 @@ import java.util.Objects;
  @ControllerAdvice  全局异常处理
              全局数据绑定 
              全局数据预处理
+ 全局参数校验
  * 
  * 异常捕捉
  */
