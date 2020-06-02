@@ -6,14 +6,13 @@ import com.xjl.base.SysConfigMsg;
 import com.xjl.entity.Author;
 import com.xjl.entity.Book;
 import com.xjl.entity.House;
-import com.xjl.service.HouseServiceImpl;
 import com.xjl.service.IHouseService;
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -29,11 +28,12 @@ public class ControllerTest extends BaseController {
     private IHouseService iHouseService;
     /**
      * 统一格式处理
+     *  参数校验
      * @return
      */
     @RequestMapping("get")
     @ResponseBody
-    public ApiResponse get(){
+    public ApiResponse get( @Valid  Book book){
         House house = House.builder().area(2).cityEnName("ddd").build();
         String houses =super.toJsonString(house);
         //JSONObject.toJSON(house);测试两者转换一样

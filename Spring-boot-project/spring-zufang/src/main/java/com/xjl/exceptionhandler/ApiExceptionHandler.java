@@ -7,11 +7,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
+import org.springframework.validation.BindException;
+import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
@@ -93,11 +96,19 @@ public class ApiExceptionHandler {
             return handlerApiException(request, (ApiException) e);
         } else if (e.getCause() instanceof XjlException) {
             return this.handlerBsException(request, e);
+        }else if(e instanceof BindException) {
+            BindException ex = (BindException)e;
+            List<ObjectError> errors = ex.getAllErrors();
+            ObjectError error = errors.get(0);
+            String msg = error.getDefaultMessage();
+            return ApiResponse.ofSuccessSon(msg);
+        }else {
+            logger.error("sysError:", e);
+            String message = messageSource
+                    .getMessage(String.format(ApiResultCode.RESP_CODE_KEY, ApiResultCode.SYSTEM_ERROR), null, null);
+            return new ApiResponse(ApiResultCode.SYSTEM_ERROR, message);
         }
-        logger.error("sysError:", e);
-        String message = messageSource
-                .getMessage(String.format(ApiResultCode.RESP_CODE_KEY, ApiResultCode.SYSTEM_ERROR), null, null);
-        return new ApiResponse(ApiResultCode.SYSTEM_ERROR, message);
+
     }
     
      /**
