@@ -7,16 +7,20 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
+import org.springframework.context.NoSuchMessageException;
 import org.springframework.validation.BindException;
+import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+import javax.validation.ConstraintViolation;
+import javax.validation.ConstraintViolationException;
+import javax.validation.UnexpectedTypeException;
+import javax.validation.ValidationException;
+import java.util.*;
 
 
 /**
@@ -103,12 +107,25 @@ public class ApiExceptionHandler {
             ObjectError error = errors.get(0);
             String msg = error.getDefaultMessage();
             return ApiResponse.ofSuccessSon(msg);
-        }else {
-            logger.error("sysError:", e);
-            String message = messageSource
-                    .getMessage(String.format(ApiResultCode.RESP_CODE_KEY, ApiResultCode.SYSTEM_ERROR), null, null);
-            return new ApiResponse(ApiResultCode.SYSTEM_ERROR, message);
+        }else if(e instanceof MethodArgumentNotValidException){
+            MethodArgumentNotValidException ex = (MethodArgumentNotValidException)e;
+            BindingResult bindingResult = ex.getBindingResult();
+
+            ObjectError error = bindingResult.getAllErrors().get(0);;
+            String msg = error.getDefaultMessage();
+            return ApiResponse.ofSuccessSon(msg);
+         }else if(e instanceof UnexpectedTypeException){
+            UnexpectedTypeException ex = (UnexpectedTypeException)e;
+//            List<ObjectError> errors = ex..getAllErrors();
+//            ObjectError error = errors.get(0);
+
+//            String msg = error.getDefaultMessage();
+            return ApiResponse.ofSuccessSon("msg");
         }
+        logger.error("sysError:", e);
+        String message = messageSource
+                .getMessage(String.format(ApiResultCode.RESP_CODE_KEY, ApiResultCode.SYSTEM_ERROR), null, null);
+        return new ApiResponse(ApiResultCode.SYSTEM_ERROR, message);
 
     }
     

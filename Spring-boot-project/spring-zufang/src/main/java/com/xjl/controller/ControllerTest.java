@@ -33,7 +33,7 @@ public class ControllerTest extends BaseController {
      */
     @RequestMapping("get")
     @ResponseBody
-    public ApiResponse get( @Valid  Book book){
+    public ApiResponse get(  @RequestBody @Valid  Book book){
         House house = House.builder().area(2).cityEnName("ddd").build();
         String houses =super.toJsonString(house);
         //JSONObject.toJSON(house);测试两者转换一样
