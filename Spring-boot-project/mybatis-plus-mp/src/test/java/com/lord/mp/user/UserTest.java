@@ -465,12 +465,12 @@ public class UserTest extends MpApplicationTests {
 
         Page<User> page = new Page<>(1, 3);
 
-        IPage<Map<String, Object>> userPage = userMapper.selectMapsPage(page, userQuery);
-        System.out.println("总页数：" + userPage.getPages());
-        System.out.println("总记录数：" + userPage.getTotal());
-
-        List<Map<String, Object>> userList = userPage.getRecords();
-        userList.forEach(System.out::println);
+//        IPage<Map<String, Object>> userPage = userMapper.selectMapsPage(page, userQuery);
+//        System.out.println("总页数：" + userPage.getPages());
+//        System.out.println("总记录数：" + userPage.getTotal());
+//
+//        List<Map<String, Object>> userList = userPage.getRecords();
+//        userList.forEach(System.out::println);
     }
 
     // @Test
@@ -481,12 +481,12 @@ public class UserTest extends MpApplicationTests {
 
         Page<User> page = new Page<>(1, 3, false);
 
-        IPage<Map<String, Object>> userPage = userMapper.selectMapsPage(page, userQuery);
-        System.out.println("总页数：" + userPage.getPages());
-        System.out.println("总记录数：" + userPage.getTotal());
-
-        List<Map<String, Object>> userList = userPage.getRecords();
-        userList.forEach(System.out::println);
+//        IPage<Map<String, Object>> userPage = userMapper.selectMapsPage(page, userQuery);
+//        System.out.println("总页数：" + userPage.getPages());
+//        System.out.println("总记录数：" + userPage.getTotal());
+//
+//        List<Map<String, Object>> userList = userPage.getRecords();
+//        userList.forEach(System.out::println);
     }
 
     @Test
