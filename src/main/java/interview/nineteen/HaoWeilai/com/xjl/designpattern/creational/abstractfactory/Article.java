@@ -1,8 +1,0 @@
-package interview.nineteen.HaoWeilai.com.xjl.designpattern.creational.abstractfactory;
-
-/**
- * Created by Administrator on 2019/9/13.
- */
-public interface Article {
-    public void getArticle();
-}
