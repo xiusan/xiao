@@ -25,7 +25,7 @@ spring:
 mybatis-plus:
   # config-location: classpath:mybatis-config.xml
   mapper-locations: classpath:mapper/**/*Mapper.xml #指定mapper.xml的位置
-  type-aliases-package: com.lord.mp.entity
+  type-aliases-package: partten.lord.mp.entity
   global-config:
     db-config:
       id-type: uuid

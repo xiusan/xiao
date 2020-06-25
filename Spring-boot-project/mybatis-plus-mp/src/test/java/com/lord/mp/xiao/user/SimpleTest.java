@@ -23,7 +23,7 @@ public class SimpleTest extends MpApplicationTests {
     public void insert() {
         Xiao xiao = Xiao.builder().name("肖金路")
                 .age(40)
-                .email("xjl@baomidou.com")
+                .email("xjl@baomidou.partten")
                 .managerId(1088248166370832385L)
                 .createTime(new Date()).build();
         int rows = xiaoMapper.insert(xiao);
@@ -42,7 +42,7 @@ public class SimpleTest extends MpApplicationTests {
     public void update() {
         Xiao xiao = Xiao.builder().id(1094592041087729668L).name("肖金路1")
                 .age(40)
-                .email("xjl@baomidou.com")
+                .email("xjl@baomidou.partten")
                 .managerId(1088248166370832385L)
                 .createTime(new Date()).build();
         int rows = xiaoMapper.updateById(xiao);
@@ -54,7 +54,7 @@ public class SimpleTest extends MpApplicationTests {
     public void removeById() {
         Xiao xiao = Xiao.builder().id(1094592041087729668L).name("肖金路1")
                 .age(40)
-                .email("xjl@baomidou.com")
+                .email("xjl@baomidou.partten")
                 .managerId(1094592041087729668L)
                 .createTime(new Date()).build();
         int rows = xiaoMapper.deleteById(1094592041087729668L);

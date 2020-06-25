@@ -42,7 +42,7 @@ public class ComplexHeadDataTest {
     private void readAndWrite(File file) {
         EasyExcel.write(file, ComplexHeadData.class).sheet().doWrite(data());
         EasyExcel.read(file, ComplexHeadData.class, new ComplexDataListener())
-            .xlsxSAXParserFactoryName("com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl").sheet().doRead();
+            .xlsxSAXParserFactoryName("partten.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl").sheet().doRead();
     }
 
     @Test

@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @Auther: xiaojinlu1990@163.com
+ * @Auther: xiaojinlu1990@163.partten
  * @Date: 2020/5/31 12:39
  * @Description:
  */

@@ -73,7 +73,7 @@ public class ReadWorkbook extends ReadBasicParameter {
      * <p>
      * The default will automatically find.
      * <p>
-     * Please pass in the name of a class ,like : "com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl"
+     * Please pass in the name of a class ,like : "partten.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl"
      *
      * @see SAXParserFactory#newInstance()
      * @see SAXParserFactory#newInstance(String, ClassLoader)

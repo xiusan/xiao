@@ -24,7 +24,7 @@ public class MybatisDataSourceConfig {
 		// 添加XML目录
 		ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
 		try {
-			bean.setMapperLocations(resolver.getResources("classpath:com/bfxy/springboot/mapping/*.xml"));
+			bean.setMapperLocations(resolver.getResources("classpath:partten/bfxy/springboot/mapping/*.xml"));
 			SqlSessionFactory sqlSessionFactory = bean.getObject();
 			sqlSessionFactory.getConfiguration().setCacheEnabled(Boolean.TRUE);
 			

@@ -47,7 +47,7 @@ public @interface ExcelProperty {
 
     /**
      *
-     * default @see com.alibaba.excel.util.TypeUtil if default is not meet you can set format
+     * default @see partten.alibaba.excel.util.TypeUtil if default is not meet you can set format
      *
      * @return Format string
      * @deprecated please use {@link com.alibaba.excel.annotation.format.DateTimeFormat}

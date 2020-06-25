@@ -14,7 +14,7 @@ public class MybatisMapperScanerConfig {
     public MapperScannerConfigurer mapperScannerConfigurer() {
         MapperScannerConfigurer mapperScannerConfigurer = new MapperScannerConfigurer();
         mapperScannerConfigurer.setSqlSessionFactoryBeanName("sqlSessionFactory");
-        mapperScannerConfigurer.setBasePackage("com.bfxy.springboot.mapper");
+        mapperScannerConfigurer.setBasePackage("partten.bfxy.springboot.mapper");
         return mapperScannerConfigurer;
     }
 

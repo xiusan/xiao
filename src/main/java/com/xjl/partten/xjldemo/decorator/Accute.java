@@ -1,0 +1,8 @@
+package com.xjl.partten.xjldemo.decorator;
+
+/**
+ * Created by Administrator on 2019/11/18.
+ */
+public interface Accute {
+    public void getLiXi();
+}

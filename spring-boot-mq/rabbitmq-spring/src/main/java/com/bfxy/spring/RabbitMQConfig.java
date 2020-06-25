@@ -196,8 +196,8 @@ public class RabbitMQConfig {
         DefaultJackson2JavaTypeMapper javaTypeMapper = new DefaultJackson2JavaTypeMapper();
         
         Map<String, Class<?>> idClassMapping = new HashMap<String, Class<?>>();
-		idClassMapping.put("order", com.bfxy.spring.entity.Order.class);
-		idClassMapping.put("packaged", com.bfxy.spring.entity.Packaged.class);
+		idClassMapping.put("order", partten.bfxy.spring.entity.Order.class);
+		idClassMapping.put("packaged", partten.bfxy.spring.entity.Packaged.class);
 		
 		javaTypeMapper.setIdClassMapping(idClassMapping);
 		

@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @Auther: xiaojinlu1990@163.com
+ * @Auther: xiaojinlu1990@163.partten
  * @Date: 2020/6/11 22:14
  * @Description:
  */

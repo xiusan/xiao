@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 
  /**
   *
-  * @Author xiaojinlu1990@163.com
+  * @Author xiaojinlu1990@163.partten
   * @Description  基类
   * @Date 2020/5/24 19:29
   * @Param

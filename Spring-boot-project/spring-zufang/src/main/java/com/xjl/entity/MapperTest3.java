@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @Auther: xiaojinlu1990@163.com
+ * @Auther: xiaojinlu1990@163.partten
  * @Date: 2020/5/31 11:07
  * @Description:  ModelMapper 实体转换   实体
  */

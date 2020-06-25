@@ -21,7 +21,7 @@ public class SimpleTest extends MpApplicationTests {
         User user = new User();
         user.setName("丁茂义");
         user.setAge(40);
-        user.setEmail("dmy@baomidou.com");
+        user.setEmail("dmy@baomidou.partten");
         user.setManagerId(1088248166370832385L);
         user.setCreateTime(new Date());
         int rows = userMapper.insert(user);

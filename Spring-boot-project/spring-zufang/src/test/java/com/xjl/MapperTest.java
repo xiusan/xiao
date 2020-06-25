@@ -5,7 +5,7 @@ import com.xjl.entity.MapperTest2;
 import org.modelmapper.ModelMapper;
 
 /**
- * @Auther: xiaojinlu1990@163.com
+ * @Auther: xiaojinlu1990@163.partten
  * @Date: 2020/5/31 10:46
  * @Description:
  */

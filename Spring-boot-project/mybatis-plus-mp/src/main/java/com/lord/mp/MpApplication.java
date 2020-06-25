@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
 @SpringBootApplication
-@MapperScan("com.lord.mp.dao")
+@MapperScan("partten.lord.mp.dao")
 public class MpApplication {
 
     public static void main(String[] args) {
