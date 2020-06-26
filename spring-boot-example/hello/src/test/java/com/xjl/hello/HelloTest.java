@@ -1,6 +1,7 @@
 package com.xjl.hello;
 
-import com.neo.hello.web.HelloController;
+
+import com.xjl.hello.web.HelloController;
 import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;

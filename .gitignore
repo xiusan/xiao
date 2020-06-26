@@ -7,3 +7,5 @@ target/
 !**/src/main/**
 
 !**/src/test/**
+!/spring-boot-dubbo/
+!/spring-boot-example/spring-boot-web/pom.xml
