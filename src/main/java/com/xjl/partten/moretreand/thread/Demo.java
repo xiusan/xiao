@@ -40,7 +40,11 @@ public class Demo {
         @Override
         public void run() {
             for (int i = 0; i < 55; i++) {
-                Thread.sleep(100);
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 System.out.println(Thread.currentThread().getName());
                 blockingQueue.add("eeeee"+1);
             }
@@ -58,9 +62,17 @@ public class Demo {
         @Override
         public void run() {
             for (int i = 0; i < 55; i++) {
-                Thread.sleep(100);
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 System.out.println(Thread.currentThread().getName());
-                blockingQueue.take();
+                try {
+                    blockingQueue.take();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
 
         }
