@@ -10,7 +10,7 @@ public class Test {
         PiZhun piZhun = new PiZhun();
         piZhun.setJiaotian("ee");
         piZhun.setLiyou("ttt");
-
+        handler.setggHandler(new  Ceo());
         handler.doPoly(piZhun);
     }
 }
