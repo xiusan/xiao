@@ -25,6 +25,11 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com</groupId>
+			<artifactId>api-com</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
 		<!--SpringBoot默认使用SpringData ElasticSearch模块进行操作-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

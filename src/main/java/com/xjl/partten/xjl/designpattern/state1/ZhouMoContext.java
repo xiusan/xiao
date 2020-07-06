@@ -1,4 +1,4 @@
-package com.xjl.partten.xjl.designpattern.state1.state;
+package com.xjl.partten.xjl.designpattern.state1;
 
 /**
  * @Auther: xiaojinlu1990@163.partten

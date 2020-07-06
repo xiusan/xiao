@@ -1,5 +1,6 @@
 package com.atguigu.elastic;
 
+import com.xjl.springcloud.TestEntity;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -23,6 +24,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringbootElasticApplication {
 
 	public static void main(String[] args) {
+		new TestEntity()
 		SpringApplication.run(SpringbootElasticApplication.class, args);
 	}
 }

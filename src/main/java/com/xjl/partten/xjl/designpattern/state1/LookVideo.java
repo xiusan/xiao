@@ -1,4 +1,4 @@
-package com.xjl.partten.xjl.designpattern.state1.state;
+package com.xjl.partten.xjl.designpattern.state1;
 
 /**
  * @Auther: xiaojinlu1990@163.partten
@@ -6,7 +6,7 @@ package com.xjl.partten.xjl.designpattern.state1.state;
  * @Description:
  */
 
-public class Sleep extends ZhouMoState {
+public class LookVideo extends ZhouMoState {
 
     @Override
     void eat() {
@@ -16,14 +16,13 @@ public class Sleep extends ZhouMoState {
 
     @Override
     void lookVideo() {
-        this.getZhouMoContext().setZhouMoState(ZhouMoContext.LOOKVIDEO);
-        this.getZhouMoContext().getZhouMoState().lookVideo();
-
+        System.out.printf("开始看电影。。");
     }
 
     @Override
     void sleep() {
-        System.out.printf("开始睡觉。。");
+        this.getZhouMoContext().setZhouMoState(ZhouMoContext.SLEEP);
+        this.getZhouMoContext().getZhouMoState().sleep();
 
     }
 }

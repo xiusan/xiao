@@ -5,6 +5,7 @@
 
     <groupId>com</groupId>
     <artifactId>xiao</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
@@ -20,6 +21,7 @@
         <module>spring-boot-mq/rabbitmq-spring</module>
         <!--spring-boot 2.0 例子-->
         <module>spring-boot-example/hello</module>
+        <module>api-com</module>
     </modules>
     <properties>
         <docker.image.prefix>springio</docker.image.prefix>
@@ -67,10 +69,10 @@
         </dependency>
 
         <!--远程监控-->
-        <dependency>
+<!--        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-remote-shell</artifactId>
-        </dependency>
+        </dependency>-->
         <!-- telnet链接 -->
         <dependency>
             <groupId>org.crsh</groupId>
