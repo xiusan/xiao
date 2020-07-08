@@ -1,6 +1,7 @@
 package com.xjl.partten.xjl.designpattern.chain;
 
 /**
+ * 责任链模式
  * Created by Administrator on 2020/7/6.
  */
 public class Test {
@@ -14,3 +15,6 @@ public class Test {
         handler.doPoly(piZhun);
     }
 }
+
+
+
