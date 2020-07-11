@@ -1,5 +1,8 @@
 package com.xjl.partten.uuiddemo;
 
+import cn.hutool.core.lang.Snowflake;
+import cn.hutool.core.net.NetUtil;
+import cn.hutool.core.util.IdUtil;
 import com.fasterxml.uuid.EthernetAddress;
 import com.fasterxml.uuid.Generators;
 import com.fasterxml.uuid.impl.TimeBasedGenerator;
@@ -91,6 +94,30 @@ public class SimpleGenerateId {
            TimeBasedGenerator timeBasedGenerator = Generators.timeBasedGenerator(EthernetAddress.constructMulticastAddress());
            return timeBasedGenerator.generate().toString();
        }
+        /*Snowflake
+          * java原生生成UUID
+           * 介绍
+           *
+           *
+           * 缺点
+           *
+           *
+           * 优点
+           *
+           *
+           * 应该场景
+           *
+           *
+           *
+           * 实例
+           *
+           * */
+    public String getSnowflake(){
+         long workerId = NetUtil.ipv4ToLong(NetUtil.getLocalhostStr());
+        Snowflake snowflake = IdUtil.createSnowflake(workerId, 7);
+        long id = snowflake.nextId();
+        return  String.valueOf(id);
+    }
 
 
 }

@@ -30,11 +30,15 @@ public class Test {
    /*     SimpleGenerateId simpleGenerateId = new SimpleGenerateId();
         for (int i = 0; i < 10; i++) {
             System.out.println(simpleGenerateId.getSimpleUuid());
-        }  */
+        }
 
         SimpleGenerateId simpleGenerateId = new SimpleGenerateId();
         for (int i = 0; i < 10; i++) {
             System.out.println(simpleGenerateId.getBuilderUuid());
+        }  */
+        SimpleGenerateId simpleGenerateId = new SimpleGenerateId();
+        for (int i = 0; i < 10; i++) {
+            System.out.println(simpleGenerateId.getSnowflake());
         }
         /*--------------单点----------------------*/
         /*--------------分布式----------------------*/
