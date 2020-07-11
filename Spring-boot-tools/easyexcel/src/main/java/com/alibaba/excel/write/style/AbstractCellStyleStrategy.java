@@ -19,7 +19,7 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 /**
  * Cell style strategy
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public abstract class AbstractCellStyleStrategy implements CellWriteHandler, WorkbookWriteHandler, NotRepeatExecutor {
     boolean hasInitialized = false;

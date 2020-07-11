@@ -5,7 +5,7 @@ import com.alibaba.excel.annotation.ExcelProperty;
 import lombok.Data;
 
 /**
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Data
 public class WriteHandlerData {

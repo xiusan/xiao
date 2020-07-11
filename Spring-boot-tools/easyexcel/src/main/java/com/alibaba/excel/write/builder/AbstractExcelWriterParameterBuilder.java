@@ -10,7 +10,7 @@ import com.alibaba.excel.write.metadata.WriteBasicParameter;
 /**
  * Build ExcelBuilder
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public abstract class AbstractExcelWriterParameterBuilder<T extends AbstractExcelWriterParameterBuilder,
     C extends WriteBasicParameter> extends AbstractParameterBuilder<T, C> {

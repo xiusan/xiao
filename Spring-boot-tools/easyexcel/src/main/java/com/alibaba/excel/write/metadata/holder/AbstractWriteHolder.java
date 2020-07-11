@@ -48,7 +48,7 @@ import com.alibaba.excel.write.style.row.SimpleRowHeightStyleStrategy;
 /**
  * Write holder configuration
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public abstract class AbstractWriteHolder extends AbstractHolder implements WriteHolder {
     /**

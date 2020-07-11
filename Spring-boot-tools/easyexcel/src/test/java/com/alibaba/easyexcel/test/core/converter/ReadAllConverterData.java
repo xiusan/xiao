@@ -6,7 +6,7 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Data
 public class ReadAllConverterData {

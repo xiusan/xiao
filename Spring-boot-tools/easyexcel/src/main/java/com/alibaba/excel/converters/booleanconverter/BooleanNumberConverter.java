@@ -11,7 +11,7 @@ import com.alibaba.excel.metadata.property.ExcelContentProperty;
 /**
  * Boolean and number converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class BooleanNumberConverter implements Converter<Boolean> {
     @Override

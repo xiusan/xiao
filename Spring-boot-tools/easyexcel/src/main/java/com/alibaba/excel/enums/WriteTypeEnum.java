@@ -3,7 +3,7 @@ package com.alibaba.excel.enums;
 /**
  * Enumeration of write methods
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public enum WriteTypeEnum {
     /**

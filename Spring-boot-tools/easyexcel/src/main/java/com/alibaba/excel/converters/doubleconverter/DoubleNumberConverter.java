@@ -11,7 +11,7 @@ import com.alibaba.excel.metadata.property.ExcelContentProperty;
 /**
  * Double and number converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class DoubleNumberConverter implements Converter<Double> {
 

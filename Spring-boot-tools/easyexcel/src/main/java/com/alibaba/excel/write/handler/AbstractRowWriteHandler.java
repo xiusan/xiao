@@ -8,7 +8,7 @@ import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 /**
  * Abstract row write handler
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public abstract class AbstractRowWriteHandler implements RowWriteHandler {
     @Override

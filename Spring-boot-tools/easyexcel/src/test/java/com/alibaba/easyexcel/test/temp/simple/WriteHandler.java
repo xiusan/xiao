@@ -7,7 +7,7 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Slf4j
 public class WriteHandler extends AbstractSheetWriteHandler {

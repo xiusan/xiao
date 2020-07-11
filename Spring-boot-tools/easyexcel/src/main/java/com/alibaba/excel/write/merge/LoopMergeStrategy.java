@@ -11,7 +11,7 @@ import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 /**
  * The regions of the loop merge
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class LoopMergeStrategy extends AbstractRowWriteHandler {
     /**

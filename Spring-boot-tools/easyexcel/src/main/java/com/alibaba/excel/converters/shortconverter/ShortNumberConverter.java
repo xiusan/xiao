@@ -11,7 +11,7 @@ import com.alibaba.excel.metadata.property.ExcelContentProperty;
 /**
  * Short and number converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class ShortNumberConverter implements Converter<Short> {
 

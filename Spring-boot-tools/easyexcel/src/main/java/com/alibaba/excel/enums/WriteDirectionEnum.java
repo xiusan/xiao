@@ -3,7 +3,7 @@ package com.alibaba.excel.enums;
 /**
  * Direction of writing
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public enum WriteDirectionEnum {
     /**

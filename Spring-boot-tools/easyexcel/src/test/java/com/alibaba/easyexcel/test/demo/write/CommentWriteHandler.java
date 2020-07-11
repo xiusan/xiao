@@ -14,7 +14,7 @@ import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 /**
  * 自定义拦截器.新增注释,第一行头加批注
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class CommentWriteHandler extends AbstractRowWriteHandler {
 

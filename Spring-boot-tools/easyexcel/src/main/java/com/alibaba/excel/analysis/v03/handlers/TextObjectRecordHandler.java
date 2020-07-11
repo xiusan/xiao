@@ -13,7 +13,7 @@ import com.alibaba.excel.read.metadata.holder.xls.XlsReadSheetHolder;
 /**
  * Record handler
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class TextObjectRecordHandler extends AbstractXlsRecordHandler implements IgnorableXlsRecordHandler {
     private static final Logger LOGGER = LoggerFactory.getLogger(TextObjectRecordHandler.class);

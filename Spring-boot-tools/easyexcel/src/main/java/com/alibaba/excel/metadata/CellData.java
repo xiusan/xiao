@@ -10,7 +10,7 @@ import com.alibaba.excel.util.StringUtils;
  *
  * <p>
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class CellData<T> extends AbstractCell {
     private CellDataTypeEnum type;

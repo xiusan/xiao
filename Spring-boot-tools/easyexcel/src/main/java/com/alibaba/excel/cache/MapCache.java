@@ -9,7 +9,7 @@ import com.alibaba.excel.context.AnalysisContext;
  *
  * Putting temporary data directly into a map is a little more efficient but very memory intensive
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class MapCache implements ReadCache {
     private Map<Integer, String> cache = new HashMap<Integer, String>();

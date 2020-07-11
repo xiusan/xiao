@@ -14,7 +14,7 @@ import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 /**
  * Column width style strategy
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public abstract class AbstractColumnWidthStyleStrategy extends AbstractCellWriteHandler implements NotRepeatExecutor {
 

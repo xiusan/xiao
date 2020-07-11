@@ -6,7 +6,7 @@ import com.alibaba.excel.metadata.GlobalConfiguration;
 /**
  * Convert number data, including date.
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public class NumberDataFormatterUtils {
     /**

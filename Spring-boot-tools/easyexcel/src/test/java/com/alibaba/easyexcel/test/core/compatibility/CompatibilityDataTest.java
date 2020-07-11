@@ -28,7 +28,7 @@ import com.alibaba.excel.parameter.GenerateParam;
 
 /**
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class CompatibilityDataTest {
 

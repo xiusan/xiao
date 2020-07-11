@@ -15,7 +15,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * 读取转换异常
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class DemoExceptionListener extends AnalysisEventListener<ExceptionDemoData> {
     private static final Logger LOGGER = LoggerFactory.getLogger(DemoExceptionListener.class);

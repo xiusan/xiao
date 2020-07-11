@@ -12,7 +12,7 @@ import com.alibaba.excel.util.NumberUtils;
 /**
  * Byte and string converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class ByteStringConverter implements Converter<Byte> {
 

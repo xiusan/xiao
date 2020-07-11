@@ -8,7 +8,7 @@ import com.alibaba.excel.converters.Converter;
  *
  * Get the corresponding holder
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public interface ConfigurationHolder extends Holder {
 

@@ -10,7 +10,7 @@ import lombok.Data;
 /**
  * 样式的数据类
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Data
 // 将第6-7行的2-3列合并成一个单元格

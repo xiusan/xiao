@@ -11,7 +11,7 @@ import com.alibaba.excel.metadata.property.StyleProperty;
 /**
  * excel head
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public class Head {
     /**

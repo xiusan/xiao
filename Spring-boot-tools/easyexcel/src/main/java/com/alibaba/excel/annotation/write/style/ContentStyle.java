@@ -17,7 +17,7 @@ import org.apache.poi.ss.usermodel.VerticalAlignment;
 /**
  * Custom content styles
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Target({ElementType.FIELD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

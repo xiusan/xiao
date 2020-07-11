@@ -2,7 +2,7 @@ package com.alibaba.excel.exception;
 
 /**
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class ExcelCommonException extends RuntimeException {
 

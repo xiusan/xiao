@@ -5,7 +5,7 @@ import java.util.Locale;
 /**
  * Global configuration
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class GlobalConfiguration {
     /**

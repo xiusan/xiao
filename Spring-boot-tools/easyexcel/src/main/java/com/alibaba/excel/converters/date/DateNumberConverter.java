@@ -14,7 +14,7 @@ import com.alibaba.excel.metadata.property.ExcelContentProperty;
 /**
  * Date and number converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class DateNumberConverter implements Converter<Date> {
 

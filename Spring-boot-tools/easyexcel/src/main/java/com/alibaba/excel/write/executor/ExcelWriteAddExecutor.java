@@ -27,7 +27,7 @@ import net.sf.cglib.beans.BeanMap;
 /**
  * Add the data into excel
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class ExcelWriteAddExecutor extends AbstractExcelWriteExecutor {
 

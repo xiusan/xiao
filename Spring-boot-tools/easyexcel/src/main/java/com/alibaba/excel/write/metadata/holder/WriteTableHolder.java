@@ -6,7 +6,7 @@ import com.alibaba.excel.write.metadata.WriteTable;
 /**
  * sheet holder
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class WriteTableHolder extends AbstractWriteHolder {
     /***

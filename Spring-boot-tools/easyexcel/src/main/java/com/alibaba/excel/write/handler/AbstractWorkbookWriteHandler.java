@@ -5,7 +5,7 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 /**
  * Abstract workbook write handler
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public abstract class AbstractWorkbookWriteHandler implements WorkbookWriteHandler {
 

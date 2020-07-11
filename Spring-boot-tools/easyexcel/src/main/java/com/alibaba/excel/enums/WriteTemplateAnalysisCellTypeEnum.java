@@ -3,7 +3,7 @@ package com.alibaba.excel.enums;
 /**
  * Type of template to read when writing
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public enum WriteTemplateAnalysisCellTypeEnum {
     /**

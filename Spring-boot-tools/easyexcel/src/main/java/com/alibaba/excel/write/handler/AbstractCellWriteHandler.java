@@ -13,7 +13,7 @@ import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 /**
  * Abstract cell write handler
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public abstract class AbstractCellWriteHandler implements CellWriteHandler {
 

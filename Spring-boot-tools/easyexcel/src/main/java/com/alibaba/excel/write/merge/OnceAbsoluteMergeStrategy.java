@@ -10,7 +10,7 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 /**
  * It only merges once when create cell(firstRowIndex,lastRowIndex)
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class OnceAbsoluteMergeStrategy extends AbstractSheetWriteHandler {
     /**

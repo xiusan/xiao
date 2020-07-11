@@ -12,7 +12,7 @@ import com.alibaba.excel.event.AnalysisEventListener;
 import com.alibaba.fastjson.JSON;
 
 /**
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class CellDataDataListener extends AnalysisEventListener<CellDataData> {
     private static final Logger LOGGER = LoggerFactory.getLogger(CellDataDataListener.class);

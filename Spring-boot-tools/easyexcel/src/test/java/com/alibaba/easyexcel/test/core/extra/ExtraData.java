@@ -3,7 +3,7 @@ package com.alibaba.easyexcel.test.core.extra;
 import lombok.Data;
 
 /**
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Data
 public class ExtraData {

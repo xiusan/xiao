@@ -11,7 +11,7 @@ import com.alibaba.excel.metadata.property.ExcelContentProperty;
 /**
  * Long and number converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class LongNumberConverter implements Converter<Long> {
 

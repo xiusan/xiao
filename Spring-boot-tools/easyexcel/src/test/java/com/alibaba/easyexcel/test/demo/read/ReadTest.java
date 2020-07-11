@@ -23,7 +23,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * 读的常见写法
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Ignore
 public class ReadTest {

@@ -16,7 +16,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * 读取头
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class DemoHeadDataListener extends AnalysisEventListener<DemoData> {
     private static final Logger LOGGER = LoggerFactory.getLogger(DemoHeadDataListener.class);

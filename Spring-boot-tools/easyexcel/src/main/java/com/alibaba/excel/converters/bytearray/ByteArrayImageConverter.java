@@ -9,7 +9,7 @@ import com.alibaba.excel.metadata.property.ExcelContentProperty;
 /**
  * Byte array and image converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class ByteArrayImageConverter implements Converter<byte[]> {
     @Override

@@ -5,7 +5,7 @@ import com.alibaba.excel.annotation.format.DateTimeFormat;
 /**
  * Configuration from annotations
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class DateTimeFormatProperty {
     private String format;

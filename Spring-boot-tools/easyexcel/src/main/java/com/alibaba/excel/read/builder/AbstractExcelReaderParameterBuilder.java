@@ -9,7 +9,7 @@ import com.alibaba.excel.read.metadata.ReadBasicParameter;
 /**
  * Build ExcelBuilder
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public abstract class AbstractExcelReaderParameterBuilder<T extends AbstractExcelReaderParameterBuilder,
     C extends ReadBasicParameter> extends AbstractParameterBuilder<T, C> {

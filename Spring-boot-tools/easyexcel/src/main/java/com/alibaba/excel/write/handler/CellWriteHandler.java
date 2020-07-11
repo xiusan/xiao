@@ -13,7 +13,7 @@ import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 /**
  * intercepts handle cell creation
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public interface CellWriteHandler extends WriteHandler {
 

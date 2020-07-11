@@ -5,7 +5,7 @@ import com.alibaba.excel.annotation.write.style.ContentLoopMerge;
 /**
  * Configuration from annotations
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class LoopMergeProperty {
     /**

@@ -13,7 +13,7 @@ import com.alibaba.excel.util.NumberUtils;
 /**
  * BigDecimal and string converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class BigDecimalStringConverter implements Converter<BigDecimal> {
 

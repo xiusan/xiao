@@ -6,7 +6,7 @@ import lombok.Data;
 
 /**
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Data
 public class StyleData {

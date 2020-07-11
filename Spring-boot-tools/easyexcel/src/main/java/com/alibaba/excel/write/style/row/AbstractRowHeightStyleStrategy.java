@@ -10,7 +10,7 @@ import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 /**
  * Set the row height strategy
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public abstract class AbstractRowHeightStyleStrategy implements RowWriteHandler, NotRepeatExecutor {
 

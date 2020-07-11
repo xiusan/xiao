@@ -21,7 +21,7 @@ import com.alibaba.excel.write.metadata.holder.WriteHolder;
 /**
  * Excel write Executor
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public abstract class AbstractExcelWriteExecutor implements ExcelWriteExecutor {
     protected WriteContext writeContext;

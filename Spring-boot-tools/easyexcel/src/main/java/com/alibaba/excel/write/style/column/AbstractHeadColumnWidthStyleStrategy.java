@@ -11,7 +11,7 @@ import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;
 /**
  * Returns the column width according to each column header
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public abstract class AbstractHeadColumnWidthStyleStrategy extends AbstractColumnWidthStyleStrategy {
 

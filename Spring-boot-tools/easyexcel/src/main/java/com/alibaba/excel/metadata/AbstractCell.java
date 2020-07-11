@@ -3,7 +3,7 @@ package com.alibaba.excel.metadata;
 /**
  * cell
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public class AbstractCell implements Cell {
     /**

@@ -9,7 +9,7 @@ import com.alibaba.excel.metadata.CellData;
 import lombok.Data;
 
 /**
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Data
 public class CellDataData {

@@ -24,7 +24,7 @@ import net.sf.cglib.beans.BeanMap;
 /**
  * 测试poi
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Ignore
 public class Wirte {

@@ -12,7 +12,7 @@ import com.alibaba.excel.util.NumberUtils;
 /**
  * Integer and string converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class IntegerStringConverter implements Converter<Integer> {
 

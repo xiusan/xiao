@@ -11,7 +11,7 @@ import com.alibaba.excel.annotation.write.style.HeadFontStyle;
 /**
  * Configuration from annotations
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class FontProperty {
     /**

@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 /**
  * Ignore convert excel
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)

@@ -13,7 +13,7 @@ import com.alibaba.excel.util.FileUtils;
 /**
  * File and image converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class FileImageConverter implements Converter<File> {
     @Override

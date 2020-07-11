@@ -10,7 +10,7 @@ import com.alibaba.excel.read.metadata.property.ExcelReadHeadProperty;
  *
  * Get the corresponding Holder
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public interface ReadHolder extends ConfigurationHolder {
     /**

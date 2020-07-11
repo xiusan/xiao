@@ -12,7 +12,7 @@ import com.alibaba.excel.util.NumberUtils;
 /**
  * Float and string converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class FloatStringConverter implements Converter<Float> {
 

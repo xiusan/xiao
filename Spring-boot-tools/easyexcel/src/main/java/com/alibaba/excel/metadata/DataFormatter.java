@@ -49,7 +49,7 @@ import com.alibaba.excel.util.DateUtils;
  * <p>
  * This is a non-thread-safe class.
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class DataFormatter {
     /** For logging any problems we find */

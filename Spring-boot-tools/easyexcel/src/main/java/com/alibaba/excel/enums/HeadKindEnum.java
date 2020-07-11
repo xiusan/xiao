@@ -3,7 +3,7 @@ package com.alibaba.excel.enums;
 /**
  * The types of header
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public enum HeadKindEnum {
     /**

@@ -6,7 +6,7 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 /**
  * Abstract sheet write handler
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public abstract class AbstractSheetWriteHandler implements SheetWriteHandler {
     @Override

@@ -14,7 +14,7 @@ import lombok.Data;
 /**
  * 图片导出类
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Data
 @ContentRowHeight(100)

@@ -13,7 +13,7 @@ import com.alibaba.excel.cache.ReadCache;
 /**
  * Simple cache selector
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public class SimpleReadCacheSelector implements ReadCacheSelector {
     private static final Logger LOGGER = LoggerFactory.getLogger(SimpleReadCacheSelector.class);

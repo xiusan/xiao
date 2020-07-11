@@ -18,7 +18,7 @@ import com.alibaba.excel.write.metadata.holder.WriteSheetHolder;
  * This is not very useful at the moment, for example if you have Numbers it will cause a newline.And the length is not
  * exactly the same as the actual length.
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class LongestMatchColumnWidthStyleStrategy extends AbstractColumnWidthStyleStrategy {
 

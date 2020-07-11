@@ -9,7 +9,7 @@ import com.alibaba.excel.metadata.property.ExcelContentProperty;
 /**
  * Byte and boolean converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class ByteBooleanConverter implements Converter<Byte> {
     private static final Byte ONE = (byte)1;

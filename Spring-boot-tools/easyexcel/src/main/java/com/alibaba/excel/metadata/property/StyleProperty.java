@@ -15,7 +15,7 @@ import com.alibaba.excel.write.metadata.style.WriteFont;
 /**
  * Configuration from annotations
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class StyleProperty {
     /**

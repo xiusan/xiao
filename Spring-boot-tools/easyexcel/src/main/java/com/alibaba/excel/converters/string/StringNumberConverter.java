@@ -17,7 +17,7 @@ import com.alibaba.excel.util.StringUtils;
 /**
  * String and number converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class StringNumberConverter implements Converter<String> {
 

@@ -10,7 +10,7 @@ import com.alibaba.excel.write.metadata.WriteTable;
 /**
  * Build sheet
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class ExcelWriterTableBuilder extends AbstractExcelWriterParameterBuilder<ExcelWriterTableBuilder, WriteTable> {
 

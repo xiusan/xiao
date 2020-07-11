@@ -8,7 +8,7 @@ import com.alibaba.excel.enums.CellExtraTypeEnum;
 /**
  * Cell extra information.
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class CellExtra extends AbstractCell {
     /**

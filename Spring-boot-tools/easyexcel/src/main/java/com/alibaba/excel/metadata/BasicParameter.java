@@ -8,7 +8,7 @@ import com.alibaba.excel.converters.Converter;
 /**
  * Basic parameter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public class BasicParameter {
     /**

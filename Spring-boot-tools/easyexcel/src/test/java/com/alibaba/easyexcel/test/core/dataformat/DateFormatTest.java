@@ -15,7 +15,7 @@ import com.alibaba.excel.EasyExcel;
 
 /**
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class DateFormatTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(DateFormatTest.class);

@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 /**
  * Merge the cells once
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

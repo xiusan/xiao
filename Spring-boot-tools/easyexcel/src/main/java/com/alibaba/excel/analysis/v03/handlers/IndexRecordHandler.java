@@ -9,7 +9,7 @@ import com.alibaba.excel.context.xls.XlsReadContext;
 /**
  * Record handler
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class IndexRecordHandler extends AbstractXlsRecordHandler implements IgnorableXlsRecordHandler {
     @Override

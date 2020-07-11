@@ -11,7 +11,7 @@ import lombok.Data;
 /**
  * 基础数据类
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Data
 public class DemoData {

@@ -20,7 +20,7 @@ import com.alibaba.easyexcel.test.util.TestFileUtil;
 /**
  * 测试poi
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Ignore
 public class PoiFormatTest {

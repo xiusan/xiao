@@ -15,7 +15,7 @@ import com.alibaba.excel.util.StringUtils;
 /**
  * Cell style when writing
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class WriteCellStyle {
     /**

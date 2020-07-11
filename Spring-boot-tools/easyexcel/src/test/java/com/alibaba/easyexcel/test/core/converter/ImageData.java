@@ -11,7 +11,7 @@ import com.alibaba.excel.converters.string.StringImageConverter;
 import lombok.Data;
 
 /**
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Data
 @ContentRowHeight(500)

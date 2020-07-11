@@ -11,7 +11,7 @@ import com.alibaba.excel.context.xls.XlsReadContext;
 /**
  * Record handler
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class ObjRecordHandler extends AbstractXlsRecordHandler implements IgnorableXlsRecordHandler {
     @Override

@@ -8,7 +8,7 @@ import com.alibaba.excel.context.xls.XlsReadContext;
 /**
  * Abstract xls record handler
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public abstract class AbstractXlsRecordHandler implements XlsRecordHandler {
 

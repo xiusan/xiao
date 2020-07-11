@@ -12,7 +12,7 @@ import com.alibaba.excel.write.metadata.WriteWorkbook;
 /**
  * Build ExcelBuilder
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class ExcelWriterBuilder extends AbstractExcelWriterParameterBuilder<ExcelWriterBuilder, WriteWorkbook> {
     /**

@@ -18,7 +18,7 @@ import com.alibaba.excel.write.metadata.holder.WriteTableHolder;
 /**
  * 自定义拦截器。对第一行第一列的头超链接到:https://github.com/alibaba/easyexcel
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class CustomCellWriteHandler extends AbstractCellWriteHandler {
 

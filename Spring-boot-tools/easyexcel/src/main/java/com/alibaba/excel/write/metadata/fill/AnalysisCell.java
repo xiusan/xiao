@@ -7,7 +7,7 @@ import com.alibaba.excel.enums.WriteTemplateAnalysisCellTypeEnum;
 /**
  * Read the cells of the template while populating the data.
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public class AnalysisCell {
     private int columnIndex;

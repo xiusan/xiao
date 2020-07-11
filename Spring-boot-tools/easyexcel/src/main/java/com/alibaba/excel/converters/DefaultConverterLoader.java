@@ -42,7 +42,7 @@ import com.alibaba.excel.converters.url.UrlImageConverter;
 /**
  * Load default handler
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class DefaultConverterLoader {
     private static Map<String, Converter> defaultWriteConverter;

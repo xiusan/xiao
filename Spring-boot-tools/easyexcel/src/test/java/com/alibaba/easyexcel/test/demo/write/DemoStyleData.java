@@ -15,7 +15,7 @@ import lombok.Data;
 /**
  * 样式的数据类
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Data
 // 头背景设置成红色 IndexedColors.RED.getIndex()

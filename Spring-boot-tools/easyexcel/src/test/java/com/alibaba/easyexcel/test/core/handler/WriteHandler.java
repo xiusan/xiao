@@ -19,7 +19,7 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 /**
  *
  *
- * @author JiaJu Zhuang
+ * @author xiaojinlu
  **/
 public class WriteHandler implements WorkbookWriteHandler, SheetWriteHandler, RowWriteHandler, CellWriteHandler {
 

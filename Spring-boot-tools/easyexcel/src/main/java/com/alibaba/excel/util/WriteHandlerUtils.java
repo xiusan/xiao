@@ -19,7 +19,7 @@ import com.alibaba.excel.write.handler.WriteHandler;
 /**
  * Write handler utils
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class WriteHandlerUtils {
 

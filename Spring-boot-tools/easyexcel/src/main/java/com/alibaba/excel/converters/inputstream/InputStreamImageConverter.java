@@ -13,7 +13,7 @@ import com.alibaba.excel.util.IoUtils;
 /**
  * File and image converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class InputStreamImageConverter implements Converter<InputStream> {
     @Override

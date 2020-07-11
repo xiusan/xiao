@@ -9,7 +9,7 @@ import com.alibaba.excel.read.listener.ReadListener;
 /**
  * Read basic parameter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public class ReadBasicParameter extends BasicParameter {
     /**

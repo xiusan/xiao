@@ -5,7 +5,7 @@ import com.alibaba.excel.metadata.BaseRowModel;
 import lombok.Data;
 
 /**
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Data
 public class CompatibilityReadData extends BaseRowModel {

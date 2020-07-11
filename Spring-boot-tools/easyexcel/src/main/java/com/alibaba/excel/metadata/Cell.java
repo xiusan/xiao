@@ -3,7 +3,7 @@ package com.alibaba.excel.metadata;
 /**
  * Cell
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public interface Cell {
     /**

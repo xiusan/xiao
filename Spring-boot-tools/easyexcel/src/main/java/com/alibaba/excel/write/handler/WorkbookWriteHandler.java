@@ -5,7 +5,7 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 /**
  * intercepts handle Workbook creation
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public interface WorkbookWriteHandler extends WriteHandler {
 

@@ -15,7 +15,7 @@ import com.alibaba.excel.util.IoUtils;
  * Url and image converter
  *
  * @since 2.1.1
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class UrlImageConverter implements Converter<URL> {
     @Override

@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 /**
  * Date utils
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public class DateUtils {
     /**

@@ -7,7 +7,7 @@ import com.alibaba.excel.cache.ReadCache;
 /**
  * Select the cache
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public interface ReadCacheSelector {
 

@@ -11,7 +11,7 @@ import com.alibaba.excel.metadata.property.ExcelContentProperty;
 /**
  * Float and number converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class FloatNumberConverter implements Converter<Float> {
 

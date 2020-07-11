@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * TODO
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Data
 public class JsonData {

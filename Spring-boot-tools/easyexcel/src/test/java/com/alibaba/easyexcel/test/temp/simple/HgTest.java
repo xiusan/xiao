@@ -18,7 +18,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * 测试poi
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Ignore
 public class HgTest {

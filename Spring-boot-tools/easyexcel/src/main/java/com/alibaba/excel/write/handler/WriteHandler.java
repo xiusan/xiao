@@ -5,6 +5,6 @@ import com.alibaba.excel.event.Handler;
 /**
  * intercepts handle excel write
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public interface WriteHandler extends Handler {}

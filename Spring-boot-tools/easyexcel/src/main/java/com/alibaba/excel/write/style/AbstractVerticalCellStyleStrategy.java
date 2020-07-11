@@ -15,7 +15,7 @@ import com.alibaba.excel.write.metadata.style.WriteCellStyle;
  *
  * Use the same style for the column
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public abstract class AbstractVerticalCellStyleStrategy extends AbstractCellStyleStrategy {
 

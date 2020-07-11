@@ -8,7 +8,7 @@ import lombok.experimental.Accessors;
 /**
  * 临时测试
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Data
 public class HeadReadData {

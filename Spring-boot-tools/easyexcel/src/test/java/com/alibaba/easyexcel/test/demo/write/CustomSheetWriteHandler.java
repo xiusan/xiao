@@ -14,7 +14,7 @@ import com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder;
 /**
  * 自定义拦截器.对第一列第一行和第二行的数据新增下拉框，显示 测试1 测试2
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class CustomSheetWriteHandler implements SheetWriteHandler {
 

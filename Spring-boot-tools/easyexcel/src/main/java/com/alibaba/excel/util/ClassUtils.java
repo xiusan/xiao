@@ -20,7 +20,7 @@ import com.alibaba.excel.metadata.BaseRowModel;
 /**
  * Class utils
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public class ClassUtils {
     private static final Map<Class, SoftReference<FieldCache>> FIELD_CACHE =

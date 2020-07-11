@@ -24,7 +24,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * 临时测试
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Ignore
 public class Lock2Test {

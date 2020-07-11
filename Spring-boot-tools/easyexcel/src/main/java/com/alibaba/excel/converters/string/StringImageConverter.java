@@ -13,7 +13,7 @@ import com.alibaba.excel.util.FileUtils;
 /**
  * String and image converter
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class StringImageConverter implements Converter<String> {
     @Override

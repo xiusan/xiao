@@ -11,7 +11,7 @@ import com.alibaba.excel.util.StringUtils;
 /**
  * Cell Handler
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class MergeCellTagHandler extends AbstractXlsxTagHandler {
 

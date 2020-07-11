@@ -21,7 +21,7 @@ import com.alibaba.excel.read.metadata.property.ExcelReadHeadProperty;
 /**
  * Read Holder
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public abstract class AbstractReadHolder extends AbstractHolder implements ReadHolder {
     private static final Logger LOGGER = LoggerFactory.getLogger(AbstractReadHolder.class);

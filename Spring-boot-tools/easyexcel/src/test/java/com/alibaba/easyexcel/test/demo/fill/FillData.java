@@ -3,7 +3,7 @@ package com.alibaba.easyexcel.test.demo.fill;
 import lombok.Data;
 
 /**
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Data
 public class FillData {

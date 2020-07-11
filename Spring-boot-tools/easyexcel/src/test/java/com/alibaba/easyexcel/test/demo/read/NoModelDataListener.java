@@ -14,7 +14,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * 直接用map接收数据
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class NoModelDataListener extends AnalysisEventListener<Map<Integer, String>> {
     private static final Logger LOGGER = LoggerFactory.getLogger(NoModelDataListener.class);

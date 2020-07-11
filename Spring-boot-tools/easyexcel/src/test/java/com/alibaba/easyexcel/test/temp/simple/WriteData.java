@@ -7,7 +7,7 @@ import lombok.Data;
 /**
  * write data
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 @Data
 public class WriteData {

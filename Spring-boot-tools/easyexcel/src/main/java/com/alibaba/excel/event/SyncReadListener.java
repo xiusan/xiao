@@ -8,7 +8,7 @@ import com.alibaba.excel.context.AnalysisContext;
 /**
  * Synchronous data reading
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 public class SyncReadListener extends AnalysisEventListener<Object> {
     private List<Object> list = new ArrayList<Object>();

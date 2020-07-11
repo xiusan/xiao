@@ -36,7 +36,7 @@ import com.alibaba.excel.write.style.column.LongestMatchColumnWidthStyleStrategy
 /**
  * 写的常见写法
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  */
 @Ignore
 public class WriteTest {

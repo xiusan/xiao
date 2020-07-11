@@ -5,7 +5,7 @@ import com.alibaba.excel.enums.WriteDirectionEnum;
 /**
  * Fill config
  *
- * @author Jiaju Zhuang
+ * @author xiaojinlu
  **/
 public class FillConfig {
     private WriteDirectionEnum direction;
