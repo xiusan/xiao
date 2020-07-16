@@ -1,5 +1,7 @@
 package com.xjl.partten.uuiddemo;
 
+import cn.hutool.core.lang.Snowflake;
+
 /**
  * 分布式ID生成策略
  * 1 业务ID生成
@@ -36,15 +38,19 @@ public class Test {
         for (int i = 0; i < 10; i++) {
             System.out.println(simpleGenerateId.getBuilderUuid());
         }  */
-        SimpleGenerateId simpleGenerateId = new SimpleGenerateId();
+/*        SimpleGenerateId simpleGenerateId = new SimpleGenerateId();
         for (int i = 0; i < 10; i++) {
             System.out.println(simpleGenerateId.getSnowflake());
-        }
+        }*/
         /*--------------单点----------------------*/
         /*--------------分布式----------------------*/
+        //雪花算法
+        Snowflake snowflake = new Snowflake(2,1);
 
-
-
+        for (int i = 0; i < 100000; i++) {
+            String idStr = snowflake.nextIdStr();
+            System.out.println(idStr);
+        }
         /*--------------分布式----------------------*/
     }
 
