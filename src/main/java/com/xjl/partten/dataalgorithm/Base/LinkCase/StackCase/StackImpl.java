@@ -9,16 +9,16 @@ package com.xjl.partten.dataalgorithm.Base.LinkCase.StackCase;
  * @Description:
  */
 
-public class StackImpl<Item> implements StackService<Item> {
+public class StackImpl<Item> implements StackService<Item> { //泛型
 
     private int n; //初始化元素个数
-    private Item[] date  = (Item[])new Object[5];
+    private Item[] date  = (Item[])new Object[5];  //初始化数据
 
 
 
     //扩容下扩容两倍 ，缩容
     public void reset(){
-        if(n >= date.length ){
+        if(n >= date.length ){  //如果初始化元素个数，大于值得个数就扩容
             Item[] newDate = (Item[])new Object[date.length*2];
             for (int i = 0; i < n; i++) {
                 newDate[i] = date[i];
