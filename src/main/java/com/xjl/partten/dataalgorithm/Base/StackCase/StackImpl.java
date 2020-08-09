@@ -1,4 +1,4 @@
-package com.xjl.partten.dataalgorithm.Base.LinkCase.StackCase;
+package com.xjl.partten.dataalgorithm.Base.StackCase;
 
 /**
  *
