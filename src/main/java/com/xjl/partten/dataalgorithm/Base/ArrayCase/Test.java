@@ -7,4 +7,10 @@ package com.xjl.partten.dataalgorithm.Base.ArrayCase;
  */
 
 public class Test {
+    public static void main(String[] args) {
+        int[] ai = new int[4];
+        ai[0]=2147483647;
+        System.out.println(ai.length);
+        System.out.println();
+    }
 }
